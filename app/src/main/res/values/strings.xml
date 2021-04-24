@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Top Songs</string>
+    <string name="top_songs">Top Songs</string>
+    <string name="released_by">RELEASED ON:</string>
+    <string name="sung_by">SUNG BY:</string>
+    <string name="seek_pos">00:00</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen16dp">16dp</dimen>
+    <dimen name="dimen12dp">12dp</dimen>
+    <dimen name="dimen24dp">24dp</dimen>
+    <dimen name="dimen8dp">8dp</dimen>
+    <dimen name="seek_bar_thickness">4dp</dimen>
+    <dimen name="seek_bar_thumb_size">20dp</dimen>
+</resources>
