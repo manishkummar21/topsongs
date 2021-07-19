@@ -15,8 +15,7 @@ open class MainRepo @Inject constructor(
 
     fun getTopOnlineSongs() = flow {
         val top_songs = apiHelper.getTopSongs()
-        top_songs.body()?.let {
-            val convertedModel = Utils.convertXMLModeltoEntity(it.entry)
+        top_songs.body()?.let { val convertedModel = Utils.convertXMLModeltoEntity(it.entry)
             appDatabase.songsdao().insertAll(convertedModel.first)
             appDatabase.imagedao().insertAll(convertedModel.second)
             emit(appDatabase.songwithimagedao().getAllTopSongs())
